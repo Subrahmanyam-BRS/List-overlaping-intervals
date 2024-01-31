@@ -41,6 +41,15 @@
     
         <p class="text-start">A simple approach is to start from the first interval and compare it with all other intervals for overlapping, if it overlaps with any other interval, then remove the other interval from the list and merge the other into the first interval. Repeat the same steps for the remaining intervals after the first.</p>
        
+    
+      <div class="container"></div>
+      <h5>Merge Intervals</h5>
+    <label for="intervalInput">Enter Intervals (e.g., [1,3], [2,6], [8,10], [15,18]):</label>
+    <input type="text" id="intervalInput" placeholder="Enter intervals">
+    <button type="button" class="btn btn-secondary"  onclick="mergeIntervals()">mergeIntervals</button>
+
+    <div id="result"></div> 
+
     </main>
 
     <footer class="footer footer-dark">
